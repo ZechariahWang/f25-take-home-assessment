@@ -170,5 +170,49 @@
       "sunset": "18:45"
     },
     "created_at": "2025-06-21T13:37:27.502438"
+  },
+  "29d68d31-1015-4e72-a72c-c087ad63e6a8": {
+    "id": "29d68d31-1015-4e72-a72c-c087ad63e6a8",
+    "date": "2025-06-24",
+    "location": "Calgary",
+    "notes": "",
+    "weather_data": {
+      "temperature": 34,
+      "description": "Light rain",
+      "humidity": 68,
+      "wind_speed": 23,
+      "pressure": 1027,
+      "visibility": 14,
+      "feels_like": 27,
+      "uv_index": 8,
+      "precipitation": 9,
+      "cloud_cover": 77,
+      "wind_direction": "E",
+      "sunrise": "06:30",
+      "sunset": "18:45"
+    },
+    "created_at": "2025-06-24T05:01:04.554727"
+  },
+  "20c409c6-9be0-4b1d-9dcc-69cb0c4bda69": {
+    "id": "20c409c6-9be0-4b1d-9dcc-69cb0c4bda69",
+    "date": "2025-06-25",
+    "location": "Calgary",
+    "notes": "",
+    "weather_data": {
+      "temperature": 23,
+      "description": "Partly cloudy",
+      "humidity": 83,
+      "wind_speed": 11,
+      "pressure": 1000,
+      "visibility": 13,
+      "feels_like": 14,
+      "uv_index": 5,
+      "precipitation": 0,
+      "cloud_cover": 31,
+      "wind_direction": "NW",
+      "sunrise": "06:30",
+      "sunset": "18:45"
+    },
+    "created_at": "2025-06-24T21:28:30.767745"
   }
 }

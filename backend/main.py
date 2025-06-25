@@ -253,9 +253,7 @@ async def list_weather_data():
     """
     List all weather data entries.
     """
-    items = list(weather_storage.values())
-    items.sort(key=lambda x: x.get("created_at", ""), reverse=True)
-    return items
+    return []
 
 @app.delete("/weather/{weather_id}")
 async def delete_weather_data(weather_id: str):

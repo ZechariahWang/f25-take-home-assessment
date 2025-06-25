@@ -112,7 +112,6 @@ export function WeatherLookup() {
         setCopied(true);
         setTimeout(() => setCopied(false), 2000);
       } catch {
-        // Fallback for older browsers
         const textArea = document.createElement("textarea");
         textArea.value = weatherData.id;
         document.body.appendChild(textArea);
@@ -152,7 +151,7 @@ export function WeatherLookup() {
   };
 
   return (
-    <Card className="w-full max-w-md mx-auto">
+    <Card className="w-full max-w-md mx-auto min-h-[400px]">
       <CardHeader>
         <CardTitle className="flex items-center gap-2">
           <div className="p-2 bg-purple-100 dark:bg-purple-900/20 rounded-lg">
@@ -199,7 +198,6 @@ export function WeatherLookup() {
 
           {weatherData && (
             <div className="space-y-4 p-4 rounded-lg bg-gradient-to-br from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 border">
-              {/* Header with location and actions */}
               <div className="flex items-start justify-between">
                 <div className="flex items-center gap-2 text-lg font-semibold">
                   <MapPin className="h-5 w-5 text-blue-600 dark:text-blue-400" />
@@ -358,7 +356,6 @@ export function WeatherLookup() {
                 )}
               </div>
 
-              {/* Created timestamp */}
               {weatherData.created_at && (
                 <div className="text-xs text-muted-foreground pt-2 border-t border-gray-200 dark:border-gray-700">
                   Created: {new Date(weatherData.created_at).toLocaleString()}
